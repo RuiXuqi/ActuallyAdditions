@@ -10,6 +10,7 @@
 
 package de.ellpeck.actuallyadditions.mod.util;
 
+import de.ellpeck.actuallyadditions.Tags;
 import de.ellpeck.actuallyadditions.mod.ActuallyAdditions;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.IRarity;
@@ -36,7 +37,7 @@ public final class Util {
     }
 
     public static boolean isDevVersion() {
-        return ActuallyAdditions.VERSION.equals("@VERSION@");
+        return ActuallyAdditions.VERSION.equals(Tags.VERSION);
     }
 
     public static boolean isClient() {
